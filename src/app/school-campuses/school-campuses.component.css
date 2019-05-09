@@ -1,0 +1,17 @@
+.campus-header {
+    margin: 10px;
+  }
+  
+  #list{
+      list-style: none;
+  }
+
+  #list-cover{
+      list-style: none;
+      margin-top: 5px;
+  }
+
+  .campus{
+      height: 100%;
+  }
+

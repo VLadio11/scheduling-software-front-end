@@ -1,0 +1,33 @@
+<div class="div-cover-input">
+    <app-add-class (click)="anotherEntry()"></app-add-class>
+    <app-remove-course (click)="removeCourse()"></app-remove-course>
+  </div>
+  
+  <div *ngIf="flag[0]" style="margin-top: 3%;">
+    <app-class-a class="class-input"></app-class-a>  
+  </div>
+  
+  <div *ngIf="flag[1]">
+    <app-class-b class="class-input"></app-class-b>  
+  </div>
+  
+  <div *ngIf="flag[2]">
+    <app-class-c class="class-input"></app-class-c>  
+  </div>
+  
+  <div *ngIf="flag[3]">
+    <app-class-d class="class-input"></app-class-d>  
+  </div>
+  
+  <div style="margin-left:30%;">
+  <div fxLayout="row" fxLayoutGap="15px">
+    <app-school-campuses fxFlex="25" fxFlexOrder="1"></app-school-campuses>
+    <app-class-days fxFlex="25" fxFlexOrder="2"></app-class-days>
+  </div>
+  </div>
+  <app-homepage-search></app-homepage-search> 
+      
+
+
+
+

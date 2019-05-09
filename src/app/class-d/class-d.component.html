@@ -1,0 +1,7 @@
+<mat-form-field class="class-input">
+  <input matInput type="text" placeholder="Course name" [(ngModel)]="this.valuesService.class4" [formControl]="class">
+  <mat-error *ngIf="class.invalid">{{getErrorMessage()}}</mat-error>
+  <button mat-button *ngIf="this.valuesService.class4" matSuffix mat-icon-button aria-label="Clear" (click)="this.valuesService.class4=''">
+    <mat-icon>x</mat-icon>
+  </button>
+</mat-form-field>

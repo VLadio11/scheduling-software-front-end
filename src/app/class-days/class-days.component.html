@@ -1,0 +1,14 @@
+<mat-card class="days">
+  <mat-card-content>
+    <h3 class="days-header" style="margin-top: 10px;">Select Days:</h3>
+    <ul style="list-style: none;">
+      <li id="list"><mat-checkbox [(ngModel)]="this.http.monday_wednesday">Monday / Wednesday</mat-checkbox></li>
+      <li id="list"><mat-checkbox [(ngModel)]="this.http.tuesday_thursday">Tuesday / Thursday</mat-checkbox></li>
+      <li id="list"><mat-checkbox [(ngModel)]="this.http.friday">Friday</mat-checkbox></li>    
+      <li id="list"><mat-checkbox [(ngModel)]="this.http.saturday">Saturday</mat-checkbox></li>
+      <li id="list"><mat-checkbox [(ngModel)]="this.http.web">Online / WEB</mat-checkbox></li>
+    </ul>
+  </mat-card-content>
+</mat-card>
+
+
